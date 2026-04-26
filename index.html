@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Резюме</title>
+</head>
+<body>
+
+    <header>
+        <h1>Микита Квітченко</h1>
+        <p>Студент 3-го курсу кібербезпеки | Python Developer & Pentester (basics) </p>
+        <button id="themeToggle" class="theme-toggle-btn">Змінити тему</button>
+    </header>
+    <main>
+        <section>
+            <h2>Про себе</h2>
+            <p>
+                Мені 19 років, і я активно розвиваюся у сфері інформаційної безпеки та розробки на Python. 
+                Маю досвід роботи з архітектурою комп'ютерних систем та мережами, базові навички проведення penetration testing, 
+                базові навички Python, Java Script. 
+                Ціную дисципліну як у навчанні, так і в особистому розвитку. Цікавлюсь різними темами.
+            </p>
+        </section>
+
+        <section>
+            <h2>Освіта</h2>
+                    Національний університет "Львівська політехніка" - Кібербезпека (2023 - теперішній час)
+        </section>
+
+        <section>
+            <h2>Технічні навички</h2>
+          Загальний рівень моїх технічних навичок невеликий, але я стараюсь його розвивати
+          <ul>
+                <li>Python</li>
+                <li>Java Script</li>
+                <li>Penetration testing</li>
+                <li>Networks and Networks security</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Соціальні навички</h2>
+            <ul>
+                <li>Дисципліна</li>
+                <li>Мотиваціія</li>
+                <li>Критичне мислення</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Інтереси та хобі</h2>
+            <ul>
+                <li>Спорт</li>
+                <li>Формула 1</li>
+                <li>Гра в шахи</li>
+                <li>Кіберспорт</li>
+            </ul>
+        </section>
+    </main>
+    <section class="resume-card card-emerald">
+                <h2>Коментарі</h2>
+                <div id="reviewsContainer">Завантаження...</div>
+    </section>
+     <section>
+        <h3>Контакти</h3>
+        <p>
+          Email:
+          <a href="mailto:mykyta.kvitchenko.kb.2023@lpnu.ua"
+            >mykyta.kvitchenko.kb.2023@lpnu.ua</a>
+        </p>
+        <p>Phone number: +380756753928</p>
+      </section>
+    <footer>
+        <p>Системна інформація: <span id="sysInfo"></span></p>
+      <p>&copy; 2026 Vladyslav Dziunych</p>
+    </footer>
+    <div id="contactModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span id="closeModal" class="close-btn">&times;</span>
+            <h2>Зворотній зв'язок</h2>
+            <form action="https://formspree.io/f/xdapvdka" method="POST">
+                <input type="text" name="name" placeholder="Ім'я" required><br>
+                <input type="email" name="email" placeholder="Email" required><br>
+                <input type="tel" name="phone" placeholder="Номер телефону"><br>
+                <textarea name="message" placeholder="Повідомлення" required></textarea><br>
+                <button class="form-submit-btn" type ="submit" role="button">Відправити</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
