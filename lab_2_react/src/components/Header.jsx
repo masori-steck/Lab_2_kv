@@ -5,7 +5,7 @@ function Header({ theme }) {
   return (
     <header className={`flex flex-col items-center border-b pb-8 mb-8 ${isDark ? 'border-zinc-700' : 'border-zinc-300'}`}>
       <h1 className={`text-4xl font-bold mb-2 tracking-widest ${isDark ? 'text-white' : 'text-zinc-900'}`}>
-        Владислав Дзюнич
+        Микита Квітченко
       </h1>
       {/* Смарагдовий текст залишаємо смарагдовим в обох темах, бо він гарно читається */}
       <p className="text-lg text-emerald-500 font-semibold">Студент кібербезпеки | Python Developer & Pentester (basics)</p>
