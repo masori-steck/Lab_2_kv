@@ -43,7 +43,7 @@ const closeBtn = document.getElementById('closeModal');
 if (modal) {
     setTimeout(() => {
         modal.style.display = 'flex';
-    }, 1000);
+    }, 60000);
 }
 
 // Закриття модального вікна.
