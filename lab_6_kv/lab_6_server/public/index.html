@@ -79,13 +79,14 @@
         <div class="modal-content">
             <span id="closeModal" class="close-btn">&times;</span>
             <h2>Зворотній зв'язок</h2>
-            <form action="https://formspree.io/f/xdapvdka" method="POST">
+            <form id="contactForm">
                 <input type="text" name="name" placeholder="Ім'я" required><br>
                 <input type="email" name="email" placeholder="Email" required><br>
-                <input type="tel" name="subject" placeholder="Тема повідомлення"><br>
+                <input type="text" name="subject" placeholder="Тема повідомлення"><br>
                 <textarea name="message" placeholder="Повідомлення" required></textarea><br>
-                <button class="form-submit-btn" type ="submit" role="button">Відправити</button>
+                <button class="form-submit-btn" type="submit" role="button">Відправити</button>
             </form>
+
         </div>
     </div>
     <script src="script.js"></script>

@@ -42,8 +42,8 @@ const closeBtn = document.getElementById('closeModal');
 // таймер 1хв. 
 if (modal) {
     setTimeout(() => {
-        modal.style.display = 'block';
-    }, 60000);
+        modal.style.display = 'flex';
+    }, 1000);
 }
 
 // Закриття модального вікна.
@@ -85,7 +85,7 @@ if (themeToggleBtn) {
 }
 
 
-// 5. Відправка форми зворотного зв'язку (Лабораторна 6)
+// 5. Відправка форми зворотного зв'язку
 const contactForm = document.getElementById('contactForm');
 
 if (contactForm) {

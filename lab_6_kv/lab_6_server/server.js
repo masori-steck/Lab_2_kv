@@ -26,9 +26,9 @@ router.post('/api/contact', async (ctx) => {
 
   try {
     await resend.emails.send({
-      from: 'onboarding@resend.dev', // Default від Resend для тестів
-      to: [''], 
-      subject: `Нове повідомлення від ${name}: ${subject}`,
+      from: 'Acme <onboarding@resend.dev>', // Default від Resend для тестів
+      to: ['kvitcenkonikita6@gmail.com'], 
+      subject: `Повідомлення від ${name}: ${subject}`,
       html: `<p><strong>Email:</strong> ${email}</p><p>${message}</p>`
     });
     ctx.status = 200;
