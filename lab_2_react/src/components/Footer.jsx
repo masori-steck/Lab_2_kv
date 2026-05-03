@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 function Footer() {
-  // 1. Створюю стан для збереження інформації про систему
+   //1. Створюю стан для збереження інформації про систему
   const [sysInfo, setSysInfo] = useState('');
 
   // 2. Використовую useEffect, щоб зчитати дані при завантаженні сторінки
@@ -15,7 +15,7 @@ function Footer() {
     
     // Отримую з LocalStorage і записую в стан
     setSysInfo(localStorage.getItem('systemInfo'));
-  }, []); 
+  }, []);
 
   return (
     // Додав pb-6 (padding-bottom), щоб текст не прилипав до самого низу екрана
@@ -40,7 +40,7 @@ function Footer() {
         </a>
 
          <a 
-          href="tel:+380756753928" /* Додав href="tel:...", щоб номер можна було набрати з телефону кліком */
+          href="tel:+380756753928"
           className="text-zinc-400 text-lg hover:text-emerald-400 hover:-translate-y-1 transition-all duration-300 cursor-pointer"
         >
           phone number: +380756753928
