@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Main from './components/Main';
 import Footer from './components/Footer';
-import Reviews from './components/reviews';        
+import Reviews from './components/Reviews';        
 import ContactForm from './components/ContactForm'; 
 
 function App() {
