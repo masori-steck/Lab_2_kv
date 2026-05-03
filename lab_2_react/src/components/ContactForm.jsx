@@ -48,7 +48,7 @@ function ContactForm({ theme }) {
         </h2>
 
         {/* Форма Formspree */}
-        <form action="https://formspree.io/f/" method="POST" className="flex flex-col gap-4">
+        <form action="https://formspree.io/f/xqeneyrl" method="POST" className="flex flex-col gap-4">
           <input type="text" name="name" placeholder="ім'я"  required className={inputClasses} />
           <input type="email" name="email" placeholder="Email" required className={inputClasses} />
           <input type="text" name="phone" placeholder="Номер телефону" required className={inputClasses}/>
